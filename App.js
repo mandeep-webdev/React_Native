@@ -1,14 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, View } from 'react-native';
-import CartItem from './components/carItem/';
+import CarsList from './components/carsList';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CartItem
-        name={'Model 3'}
-        tagline={'Schedule a Demo Drive'}
-        img={require('./assets/images/Model3.jpeg')}
-      />
+      <CarsList />
     </View>
   );
 }
