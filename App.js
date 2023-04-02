@@ -4,7 +4,11 @@ import CartItem from './components/carItem/';
 export default function App() {
   return (
     <View style={styles.container}>
-      <CartItem />
+      <CartItem
+        name={'Model 3'}
+        tagline={'Schedule a Demo Drive'}
+        img={require('./assets/images/Model3.jpeg')}
+      />
     </View>
   );
 }
